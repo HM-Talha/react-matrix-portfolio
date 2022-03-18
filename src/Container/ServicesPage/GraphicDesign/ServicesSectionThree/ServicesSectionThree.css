@@ -1,0 +1,125 @@
+.sectionThreeParent {
+  display: flex;
+  padding: 0;
+  /* border: 1px solid; */
+  flex-wrap: wrap;
+}
+.sercChildOne {
+  /* border: 1px solid yellow; */
+  width: 65%;
+  padding: 10px;
+}
+.sercChildTwo {
+  /* border: 1px solid orange; */
+  width: 33%;
+  /* border: 1px solid yellow; */
+}
+.planningBox {
+  /* border: 1px solid blue; */
+}
+.planningBox h5 {
+  /* border: 1px solid yellow; */
+  font-weight: bolder;
+  color: #1a1f33;
+}
+.planningBox p {
+  color: gray;
+}
+.researchBox {
+  /* border: 1px solid; */
+  margin: 40px 0;
+}
+.researchBox p {
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.researchBox .checkLogo {
+  /* border: 1px solid red;    */
+  position: absolute;
+  font-size: 1.2rem;
+  padding-top: 4px;
+  left: 1px;
+  /* bottom: 1px; */
+}
+.paraBox {
+  /* border: 1px solid; */
+  margin: 30px 0;
+}
+.paraBox p {
+  color: gray;
+  line-height: 25px;
+}
+.dropDownParent1 {
+  /* border: 1px solid; */
+}
+.dropDownParent1 section {
+  /* border: 1px solid; */
+  margin: 20px 0 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+}
+.dropDownParent1 h5 {
+  /* border: 1px solid; */
+  margin: 0;
+  padding: 10px 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.dropDownParent1 p {
+  /* border: 1px solid orange; */
+  margin: 0;
+  padding: 10px 20px;
+  color: gray;
+}
+
+.helpCard {
+  /* border: 1px solid; */
+  padding: 30px;
+  background-color: #343438;
+  max-width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 0 auto;
+}
+.helpCard h4 {
+  /* border: 1px solid yellow; */
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.helpCard p {
+  /* border: 1px solid orangered; */
+  margin: 0;
+  color: lightgray;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.helpCard i {
+  /* border: 1px solid orange; */
+  margin-left: 8px;
+  margin-bottom: 20px;
+  background-color: #767678;
+
+  color: white;
+}
+.helpCard i:hover {
+  background-color: #fff;
+  color: #1a6bda;
+}
+@media only screen and (max-width: 992px) {
+  .sectionThreeParent{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }  
+  .sercChildOne , .sercChildTwo{
+    width: 90%;
+    margin-top: 20px;
+  }
+}

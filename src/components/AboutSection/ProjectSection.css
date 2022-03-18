@@ -1,0 +1,63 @@
+.mainParent {
+  background: #f1f1f5;
+  margin-top: 100px;
+}
+.aboutParent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cont1 {
+  width: 45%;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction:column ;
+  justify-content: center;
+}
+
+.acordianBox{
+  /* border:  1px solid yellow; */
+  
+}
+.acordianContent{
+  /* border: 1px solid red; */
+  margin: 10px 0;
+}
+
+.cont2 {
+  width: 55%;
+  position: relative;
+}
+.cont2 img {
+  border-radius: 8px 0px 0px 8px;
+}
+.cont2Child {
+  background-image: url("../../assets/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  border-radius: 0 0 0 8px;
+}
+@media only screen and (max-width: 800px) {
+  .aboutParent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont2,
+  .cont1 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cont2Child {
+    width: 100%;
+  }
+}

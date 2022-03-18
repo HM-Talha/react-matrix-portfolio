@@ -1,0 +1,62 @@
+.contactBar {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../../../assets/contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.servHeader h1 {
+  font-size: 3.5rem;
+}
+.sectionThreeParent {
+  display: flex;
+  padding: 0;
+}
+.sercChildOne {
+  width: 65%;
+  padding: 10px;
+}
+.sercChildTwo {
+  width: 33%;
+}
+.planningBox {
+}
+.planningBox h5 {
+  font-weight: bolder;
+  color: #1a1f33;
+}
+.planningBox p {
+  color: gray;
+}
+.researchBox {
+  margin: 40px 0;
+}
+.researchBox p {
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.researchBox .checkLogo {
+  position: absolute;
+  font-size: 1.2rem;
+  padding-top: 4px;
+  left: 1px;
+}
+.paraBox {
+  margin: 30px 0;
+}
+
+.paraBox p {
+  color: gray;
+  line-height: 25px;
+}
+.dropDownParent {
+  border: 1px solid;
+}

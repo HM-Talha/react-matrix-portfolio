@@ -1,0 +1,138 @@
+.commitBox {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.commitBox .comitLogo i {
+  font-size: 6rem;
+  margin: 0 10px 0 0;
+}
+.commitBox .comitLogo:hover {
+  transform: scale(1.3);
+  color: #3a71d7;
+  transition: 0.6s;
+}
+.commitText {
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 1.4rem;
+  color: #1a1f33;
+}
+.resonboxParent {
+  display: flex;
+}
+.benfitsParents {
+  width: 35%;
+}
+.benefitsTextBox {
+  width: 100%;
+}
+.benefitsTextBox p {
+  border-bottom: 2px solid #3a71d7;
+  width: 100px;
+  color: gray;
+  font-weight: bolder;
+  font-style: italic;
+}
+.benefitsTextBox h1 {
+  font-weight: bolder;
+  color: #1a1f33;
+  font-size: 2.5rem;
+  width: 100%;
+}
+.experienceBoxParent {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+}
+.experienceBox i {
+  font-size: 2.4rem;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px 0 10px 10px;
+}
+.experienceBox i:hover {
+  color: #3a71d7;
+  transform: scale(1.3);
+  transition: 0.7s;
+}
+.experienceBox p {
+  font-weight: bold;
+  color: #1a1f33;
+  max-width: 100%;
+}
+.para1 {
+}
+.para2 {
+  border-left: 1px solid lightgray;
+}
+.forColor {
+  color: gray;
+  font-weight: bolder;
+}
+
+.imgBoxParent {
+  width: 65%;
+}
+.imgParent1 {
+  width: 50%;
+  margin-top: 60px;
+  border-radius: 10px;
+}
+.imgParent1 img {
+  border-radius: 10px;
+}
+.imgParent2 {
+  width: 50%;
+}
+.imgBox1,
+.imgBox2 {
+  width: 100%;
+}
+.imgBox1 img,
+.imgBox2 img {
+  border-radius: 10px;
+}
+@media only screen and (max-width: 990px) {
+  .commitParent {
+    flex-direction: column;
+  }
+  .commitBox {
+    width: 100%;
+    margin: 10px 0;
+  }
+  .resonboxParent {
+    flex-direction: column;
+  }
+  .benfitsParents {
+    width: 100%;
+  }
+  .imgBoxParent {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .commitBox {
+    flex-direction: column;
+  }
+  .experienceBoxParent {
+    flex-direction: column;
+  }
+  .para2 {
+    border-left: none;
+    padding-left: 4px !important;
+  }
+  .imgBoxParent {
+    flex-direction: column;
+  }
+  .imgBoxParent img {
+    margin: 8px 0;
+  }
+  .imgParent1,
+  .imgParent2 {
+    width: 100%;
+  }
+}

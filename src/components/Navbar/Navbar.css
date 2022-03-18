@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: #fff !important; */
+  /* text-decoration: none !important; */
+}
+.navScrolbar {
+  /* background: #3E5151; */
+  /* background: -webkit-linear-gradient(to right, #DECBA4, #3E5151); 
+  background: linear-gradient(to right, #DECBA4, #3E5151); */
+  /* background: #80808059; */
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 9 !important;
+}
+.header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url("../../assets/altumcode-zE007SNgcdE-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-nav {
+  background-color: transparent;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.scrolNavbar {
+  background-image: url("../../assets/webdevpic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 0;
+}
+
+.navLogo {
+  max-width: 120px;
+  min-height: 140px;
+}
+.nav-logos {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+.nav-logos:hover {
+  color: #3667d6 !important;
+  transition: all 0.5s ease;
+  transform: scale(2);
+}
+.navLogo {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+.fa-bars {
+  font-size: 1.6rem;
+}
+
+.navLinks {
+  color: #000 !important ;
+  margin: 0 5px;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  /* border: 1px solid red; */
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+a:hover {
+  color: #1367D5;
+  text-decoration: none;
+}
+.navLinks:hover {
+  color: #1367D5 !important;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+.dropDownLinks:hover {
+  transition: 0.5s;
+}
+.navNum {
+  color: black !important;
+  font-weight: bolder;
+}
+.fa-phone {
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border-radius: 50%;
+}
+.navNum:hover {
+  color: #fff;
+}
+.fa-phone:hover {
+  background-color: gray;
+  color: #fff;
+  transition: all 0.5s ease;
+  transform: scale(1.1);
+}
+
+/* @media only screen and (max-width: 990px) {
+  .navNum,
+  .navLinks,
+  .nav-logos {
+    color: #000 !important;
+  }
+  a{
+    color: #000 !important;
+  }
+} */

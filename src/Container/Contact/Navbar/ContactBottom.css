@@ -1,0 +1,227 @@
+.get-in-touch {
+  position: relative;
+  display: block;
+  padding: 120px 0 120px;
+
+  font-family: var(--moniz-font, "Kumbh Sans", sans-serif);
+  color: var(--moniz-gray, #717178);
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y) * -1);
+  margin-right: calc(var(--bs-gutter-x) / -2);
+  margin-left: calc(var(--bs-gutter-x) / -2);
+}
+.get-in-touch_img {
+  max-width: 670px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+  margin-right: 70px;
+  z-index: 5;
+  visibility: visible;
+  animation-duration: "1500ms";
+  animation-name: fadeInLeft;
+}
+
+.get-in-touch_img img {
+  width: 100%;
+  border-radius: var(--moniz-border-radius, 10px);
+}
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+.get-in-touch__img-shapes {
+  position: absolute;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.get-in-touch__img-shape-1 {
+  position: absolute;
+  top: 50%;
+  left: -60px;
+  border-radius: 50%;
+  background-color: var(--moniz-primary, #3629ec);
+  width: 164px;
+  height: 164px;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+.get-in-touch__right {
+  position: relative;
+  display: block;
+  max-width: 670px;
+  width: 100%;
+  margin: 50px auto 0;
+}
+.get-in-touch__right .section-title {
+  margin-bottom: 22px;
+}
+.section-title {
+  margin-top: -11px;
+  margin-bottom: 35px;
+}
+.text-left {
+  text-align: left !important;
+}
+.section-title__tagline {
+  display: inline-flex;
+  color: var(--moniz-gray, #717178);
+  font-size: 16px;
+  align-items: center;
+  line-height: 30px;
+  margin-bottom: 6px;
+  font-weight: 700;
+}
+.section-title__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  background-color: white;
+}
+.row {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-md-6 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+.get-in-touch__locations-text {
+  margin: 0;
+}
+
+.get-in-touch__locatins-count-text {
+  font-size: 18px;
+  color: var(--moniz-primary, #f8921f);
+  font-weight: 700;
+}
+.h4 {
+  color: var(--moniz-primary, #f8921f);
+}
+.col-xl-6 {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.get-in-touch__locations-right {
+  position: relative;
+  display: block;
+  margin-top: 10px;
+}
+.contactMiddleParent {
+  display: flex;
+}
+
+.imgSection {
+  /* border: 1px solid red; */
+  width: 45%;
+}
+.contactWithUsSection {
+  width: 45%;
+}
+
+.footerFormBox {
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  margin-left: 5px;
+  margin-top: 30px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 1) 0px 5px 15px;
+}
+.footerFormBox h5 {
+  font-weight: bolder;
+  color: #fff !important;
+  margin: 10px 0;
+}
+.footerFormBox p {
+  color: rgb(14, 11, 11);
+  margin: 5px 0;
+  padding: 20px;
+  padding-top: 5px;
+}
+.footerFormBox input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  margin: 20px 0;
+  width: 80%;
+  color: #fff;
+}
+.footerFormBox input:focus {
+  outline: none;
+}
+.inpBox {
+  position: relative;
+}
+.inpBox i {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+  cursor: pointer;
+}
+@media only screen and (max-width : 992px){
+    .contactMiddleParent{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .contactWithUsSection{
+        width: 90%;
+    }
+    .imgSection{
+        width: 90%;
+    }
+}

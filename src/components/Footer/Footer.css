@@ -1,0 +1,188 @@
+.footerParent {
+  background-color: black;
+}
+.footerContent{
+  display: flex;
+  padding: 30px 0 !important;
+  position: relative;
+  top: 30px;
+
+}
+.footerBOx {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: space-between;
+  padding: 10px;
+  
+}
+.footerBOx2 {
+  padding: 10px;
+  display: flex;
+}
+.footeIconBox {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 0;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.footeIconBox p {
+  color: #fff;
+  width: 250px;
+  padding: 5px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 20px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+.footeIconBox ul {
+  list-style: none;
+  display: flex;
+}
+.footeIconBox ul li {
+  margin: 0 5px;
+}
+.footeIconBox ul li i {
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 7px;
+  /* font-size: 1.4rem; */
+  border-radius: 50%;
+}
+.footeIconBox ul li i:hover {
+  color: #fff;
+  transition: all 0.5s ease;
+  background-color: #1669d8;
+  transform: scale(1.2);
+}
+.footerBox2 {
+  margin: 0;
+  padding: 0 !important;
+  padding: 10px;
+  width: 200px;
+  margin-right: 60px;
+}
+
+.footerBox2 h5 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff !important;
+}
+.footerBox2 ul{
+  padding-left:10px;
+}
+.footerBox2 ul li {
+  list-style-position: inside;
+  color: #fff;
+  list-style: none;
+  margin: 5px 0;
+}
+.footerBox2 ul li:hover {
+  transition: all 0.5s ease !important;
+  margin-left: 20px;
+  list-style: circle;
+}
+.footerContactBox {
+  padding: 10px;
+  width: 250px;
+}
+.footerContactBox h5 {
+  font-weight: bold;
+  color: #fff !important;
+}
+
+.footerContactBox span,
+.footerContactBox p {
+  color: #fff;
+  line-height: 25px;
+}
+.contact {
+  color: #fff !important;
+  font-weight: bolder;
+  margin-top: 5px;
+}
+.email {
+  color: #1669d8 !important;
+  margin-top: 5px;
+  font-weight: bolder;
+}
+
+.footerFormBox {
+  padding: 30px;
+  margin-left: 5px;
+  margin-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(255, 255, 255, 0.5) 0px 5px 15px;
+  border: 1px solid lightgray;
+}
+.footerFormBox h5 {
+  font-weight: bolder;
+  color: #fff !important;
+  margin: 10px 0;
+}
+.footerFormBox p {
+  color: #fff !important;
+  margin: 10px 0;
+}
+.footerFormBox input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid gray;
+  padding: 5px;
+  margin: 20px 0;
+  width: 80%;
+  color: #fff;
+}
+.footerFormBox input::placeholder{
+  color: lightgray;
+}
+.footerFormBox input:focus {
+  outline: none;
+}
+.inpBox {
+  position: relative;
+}
+.inpBox i {
+  color: white;
+  position: absolute;
+  top: 30%;
+  right: 25%;
+  cursor: pointer;
+}
+.copyRightFooter {
+  padding-top: 30px;
+  color: #fff;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+@media only screen and (max-width: 1150px) {
+  .footerContent {
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 50px 0 !important;
+    /* border: 1px solid red; */
+  }
+  .footerBOx {
+    justify-content: space-around;
+  }
+  .footerBOx2 {
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .footerBOx {
+    flex-direction: column;
+  }
+  .footerBOx2 {
+    flex-direction: column;
+  }
+  .footerFormBox {
+    width: 90% !important;
+  }
+}

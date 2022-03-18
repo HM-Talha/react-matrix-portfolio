@@ -1,0 +1,50 @@
+.cardParent {
+  position: relative;
+}
+.teamCardBox {
+  /* border: 1px solid; */
+  min-height: 370px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: #e3e3e3;
+}
+.teamCardBox h3 {
+  font-size: 3rem;
+}
+.iconBox {
+  border-radius: 10px 10px 0 0;
+  z-index: 1;
+  background-color: white;
+  width: 95%;
+  bottom: -20px;
+  position: absolute;
+  left: 8px;
+  /* margin: 0 auto; */
+}
+.iconBox i {
+  /* border: 1px solid; */
+  font-size: 1.5rem;
+  color: gray;
+  transition: 0.6s;
+}
+.iconBox i:hover {
+  color: #1b6bdb;
+  transform: scale(1.3);
+}
+.nameBox {
+  /* border: 1px solid; */
+  margin-top: 30px;
+  text-align: center;
+}
+.nameBox h5 {
+  line-height: 25px;
+  font-weight: bolder;
+}
+.nameBox h5 span {
+  font-weight: normal;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: gray;
+}

@@ -1,0 +1,76 @@
+.mainParent {
+  background: #f1f1f5;
+  margin-top: 100px;
+}
+.aboutParent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.cont1 {
+  width: 45%;
+}
+
+.paraTextAbout {
+  color: gray;
+  font-weight: bolder;
+  width: 85px;
+  border-bottom: 3px solid #386bdb;
+  font-style: italic;
+}
+.QuesionParent {
+  border: 1px solid lightgray;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.faqQuestion {
+  border-bottom: 1px solid lightgray;
+  position: relative;
+}
+
+.fa-angle-down {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  font-size: 1.3rem;
+  color: #386bdb;
+}
+
+.cont2 {
+  width: 55%;
+  position: relative;
+}
+.cont2 img {
+  border-radius: 8px 0px 0px 8px;
+}
+.cont2Child {
+  background-image: url("../../../assets/bg1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+  color: #fff;
+  width: 70%;
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  border-radius: 0 0 0 8px;
+}
+@media only screen and (max-width: 800px) {
+  .aboutParent {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .cont2,
+  .cont1 {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .cont2Child {
+    width: 100%;
+  }
+}

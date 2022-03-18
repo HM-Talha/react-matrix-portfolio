@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+.aboutMainParent {
+  background-image: url("../../../assets/web-development-banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.abtParent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.aboutCont1 {
+  width: 45%;
+  padding: 10px;
+}
+.paraTextAbout2 {
+  color: whitesmoke;
+  font-weight: bolder;
+}
+.aboutCont1 h1 {
+  font-size: 1.9rem;
+  font-weight: bolder;
+  color: #000;
+}
+.matrix {
+  font-weight: bolder;
+  font-size: 1.7rem;
+  font-family: "Dancing Script", cursive;
+  font-style: oblique;
+  text-decoration: underline;
+}
+.aboutCont2 {
+  width: 50%;
+}
+
+.percentText {
+  margin: 15px 0;
+  position: relative;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  width: 70%;
+}
+.percentText span {
+  position: absolute;
+  right: 30%;
+}
+.percContainer {
+  width: 70%;
+  border: 2px solid #3a71d7;
+  height: 15px;
+  border-radius: 30px;
+}
+.setClr {
+  width: 95%;
+  background-color: #3a71d7;
+  border: #3a71d7;
+  height: 12px;
+  border-radius: 30px;
+}
+@media only screen and (max-width: 670px) {
+  .abtParent {
+    flex-direction: column;
+  }
+  .aboutCont2,
+  .aboutCont1 {
+    width: 80%;
+  }
+  .percentText {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .percentText span {
+    right: 10%;
+  }
+}
+@media only screen and (max-width: 415px) {
+  .percentText {
+    font-size: 0.5rem;
+  }
+  .abtParent {
+    padding: 0;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+}

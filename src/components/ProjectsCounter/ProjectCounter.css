@@ -1,0 +1,35 @@
+.myRow {
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.counterDiv1 {
+  border-right: 1px solid gray;
+}
+.counterDiv1 i,
+.fa-users {
+  font-size: 3.5rem;
+}
+.paraClr {
+  color: gray;
+  font-weight: bolder;
+}
+.fa-file-signature:hover,
+.fa-user-tie:hover,
+.fa-mug-hot:hover,
+.fa-users:hover {
+  color: #386bdb;
+  transition: 0.6s ease-out;
+  transform: scale(1.5);
+}
+@media only screen and (max-width: 990px) {
+  .countDiv2 {
+    border: none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .counterDiv1 {
+    border: none;
+  }
+}
