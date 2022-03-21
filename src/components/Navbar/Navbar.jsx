@@ -28,7 +28,7 @@ const Navbar = () => {
       {/* {navbar ? 'my-nav scrolNavbar' :navbar} */}
       <header className="navScrolbar">
         <nav className="navbar  navbar-expand-lg navbar-light my-nav p-0 mr-3">
-          <a className="navbar-brand navLogo" href="#">
+          <a className="navbar-brand navLogo" >
             <img src={Logo} width="100%" alt="" />
           </a>
           <button
@@ -45,17 +45,17 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item active mx-auto">
-                <a className="nav-link" href="#">
+                <a className="nav-link">
                   <i className="fa-brands fa-github nav-logos" />
                 </a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link" href="#">
+                <a className="nav-link">
                   <i className="fa-brands fa-facebook nav-logos" />
                 </a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link" href="a">
+                <a className="nav-link">
                   <i className="fa-brands fa-linkedin nav-logos"></i>
                 </a>
               </li>
@@ -127,7 +127,7 @@ const Navbar = () => {
             </ul>
             <ul className="navbar-nav ml-auto mr-3">
               <li className="nav-item  mx-auto">
-                <a href="#" className="nav-link navNum">
+                <a  className="nav-link navNum">
                   <i className="fa-solid fa-phone mx-2" />
                   <span className=""> 0900-78601</span>
                 </a>

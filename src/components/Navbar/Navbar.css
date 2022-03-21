@@ -13,6 +13,8 @@
   background-color: white;
   position: sticky;
   top: 0;
+  /* border: 1px solid; */
+  
   z-index: 9 !important;
 }
 .header {
@@ -42,8 +44,9 @@
 }
 
 .navLogo {
-  max-width: 120px;
-  min-height: 140px;
+  max-width: 100px;
+  min-height: 100px;
+  /* padding: 0; */
 }
 .nav-logos {
   color: black;
@@ -66,7 +69,7 @@
 .navLinks {
   color: #000 !important ;
   margin: 0 5px;
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: bolder;
   /* border: 1px solid red; */
 }

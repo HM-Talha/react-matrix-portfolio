@@ -20,7 +20,7 @@ const Bottom = () => {
             </div>
           </div>
           <div
-            className="border contactWithUsSection "
+            className="ml-5 contactWithUsSection "
             data-aos="zoom-in"
             data-aos-duration="2500"
           >

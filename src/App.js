@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 // import Services from "./pages/ServicesPage/Services"
-import WebDesign from "./pages/ServicesPage/WebDesign/WebDesign";
+import WebDesign from "./pages/ServicesLinks/WebDesign/WebDesign";
 import Home from "./pages/Home/home";
 import Contact from "./pages/Contact/contact";
-import WebDeveloper from "./pages/ServicesPage/WebDevelopment/WebDeveloper";
-import GraphicDesign from "./pages/ServicesPage/GraphicDesign/GraphicDesign";
+import WebDeveloper from "./pages/ServicesLinks/WebDevelopment/WebDeveloper";
+import GraphicDesign from "./pages/ServicesLinks/GraphicDesign/GraphicDesign";
 import About from "./pages/More/About/About";
 import Team from "./pages/More/Team/Team";
 import Faq from "./pages/More/FAQ/Faq";

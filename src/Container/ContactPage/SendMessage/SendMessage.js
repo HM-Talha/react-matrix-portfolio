@@ -1,6 +1,6 @@
 import React from "react";
 import './SendMessage.css';
-import FaqForm from '../../More/Faq/FaqForm/FaqForm'
+import FaqForm from '../../MorePage/Faq/FaqForm/FaqForm'
 const SendMessage = () => {
     const handleOnSubmit = (event) => {
         console.log(event.target.value);
