@@ -12,22 +12,17 @@ body {
   width: 10px;
 }
 ::-webkit-scrollbar-track {
-  background: #2980b9; 
-  background: -webkit-linear-gradient(
-    to right,
-    #ffffff,
-    #6dd5fa,
-    #2980b9
-  );
+  background: #2980b9;
+  background: -webkit-linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
   background: linear-gradient(to right, #ffffff, #6dd5fa, #2980b9);
 }
 ::-webkit-scrollbar-thumb {
   background-color: #1669d7;
   border-radius: 10px;
-  /* width: 15px; */
+
   opacity: 0.5;
   transition: 0.5s;
 }
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background-color: blue;
 }

@@ -9,18 +9,13 @@
 }
 .cont1 {
   width: 45%;
-  /* border: 1px solid red; */
+
   display: flex;
-  flex-direction:column ;
+  flex-direction: column;
   justify-content: center;
 }
 
-.acordianBox{
-  /* border:  1px solid yellow; */
-  
-}
-.acordianContent{
-  /* border: 1px solid red; */
+.acordianContent {
   margin: 10px 0;
 }
 

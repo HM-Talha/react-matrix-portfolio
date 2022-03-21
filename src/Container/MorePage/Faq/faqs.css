@@ -1,13 +1,11 @@
 .FaqsBox {
-  /* border: 1px solid; */
   width: 50%;
   padding: 8px;
   border-radius: 10px;
   background-color: transparent;
 }
 
-.myAcordianContent{
-  /* border: 1px solid red  !important; */
+.myAcordianContent {
   margin: 10px 0;
   width: 100% !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
@@ -15,9 +13,8 @@
 @media only screen and (max-width: 700px) {
   .faqsParent {
     flex-direction: column;
-   }
-  .FaqsBox{
+  }
+  .FaqsBox {
     width: 100%;
-
   }
 }
