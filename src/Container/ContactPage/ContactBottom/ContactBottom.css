@@ -13,7 +13,10 @@
   padding-left: 15px;
   padding-right: 15px;
 }
+.odometerCounter{
+  text-align: center;
 
+}
 .container {
   width: 100%;
   padding-right: 15px;

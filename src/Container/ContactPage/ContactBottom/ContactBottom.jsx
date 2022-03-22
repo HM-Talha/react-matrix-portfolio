@@ -1,8 +1,18 @@
-import React from "react";
+import React,{useEffect,useState} from "react";
 import Logo from "../../../assets/contactbottom.jpg";
-import "./ContactBottom.css";
 import Odometer from "react-odometerjs";
+import "odometer/themes/odometer-theme-default.css";
+import "./ContactBottom.css";
+
 const Bottom = () => {
+  const [OdometerValue , SetOdometerValue] = useState(0);
+  useEffect(()=>{
+    setTimeout(() => {
+      SetOdometerValue(100)
+    
+    }, 2000);
+  },[])
+  
   return (
     <section className="get-in-touch">
       <div className="container">
@@ -38,10 +48,14 @@ const Bottom = () => {
                 create a world that is honest and transparent.
               </p>
               <h3
-                className="get-in-touch__locations-count odometer odometer-auto-theme text-center"
-                data-count="35600"
+                className="get-in-touch__locations-count odometerCounter"
+                
               >
-                <Odometer format="(,ddd)" />
+               <Odometer
+          value={OdometerValue}
+          format="(,ddd)"
+          theme="default"
+        />  
               </h3>
               <h4 className="get in-touch__locations-count-text text-center text-primary font-weight-bold">
                 Projects has been completed

@@ -1,8 +1,63 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Logo from "../../../assets/DFgnWp.png";
 import "./AboutSection2.css";
 
 function AboutSection2() {
+  const [webDevelopmentProgress, setWebDevelopmentProgress] = useState({
+    width: "0%",
+    transition: "0.5s",
+  });
+  const [mobileDevelopmentProgress, setMobileDevelopmentProgress] = useState({
+    width: "0%",
+    transition: "0.5s",
+  });
+  const [graphicProgress, setGraphicProgress] = useState({
+    width: "0%",
+    transition: "0.5s",
+  });
+
+  // console.log(document.documentElement.scrollTop);
+  // const changeProgressBarWidth = () => {
+  //   const scrollValue = document.documentElement.scrollTop;
+  //   if (scrollValue !== 2447.77783203125) {
+  //     setWebDevelopmentProgress({
+  //       transition: "1s",
+  //       width: "95%",
+  //     });
+  //     setMobileDevelopmentProgress({
+  //       transition: "1s",
+  //       width: "90%",
+  //     });
+  //     setGraphicProgress({
+  //       transition: "1s",
+  //       width: "80%",
+  //     });
+  //   }else{
+  //     // console.log("aaaaaaaa");
+  //   }
+  // };
+  // window.addEventListener("scroll", changeProgressBarWidth);
+
+  // console.log("hello");
+  // console.log(window.scrollY);
+
+  //   useEffect(() => {
+  //     setTimeout(() => {
+  //       setWebDevelopmentProgress({
+  //         transition: "1s",
+  //         width: "95%",
+  //       })
+  //       setMobileDevelopmentProgress({
+  //         transition: "1s",
+  //         width: "90%",
+  //       })
+  //       setGraphicProgress({
+  //         transition: "1s",
+  //         width: "80%",
+  //       })
+  // ;
+  //     }, 5000);
+  //   }, []);
   return (
     <section className="aboutMainParent mb-5 mt-5">
       <div className="abtParent p-3">
@@ -22,7 +77,9 @@ function AboutSection2() {
               Website design & Development <span>95%</span>
             </p>
             <div className="mx-auto percContainer">
-              <section className="setClr"> </section>
+              <section className="setClr" style={webDevelopmentProgress}>
+                {" "}
+              </section>
             </div>
           </div>
           <div>
@@ -30,7 +87,7 @@ function AboutSection2() {
               Mobile App Design & development <span>90%</span>
             </p>
             <div className="mx-auto percContainer">
-              <section className="setClr" style={{ width: "90%" }}>
+              <section className="setClr" style={mobileDevelopmentProgress}>
                 {" "}
               </section>
             </div>
@@ -40,7 +97,7 @@ function AboutSection2() {
               Graphic Designing <span>90%</span>
             </p>
             <div className="mx-auto percContainer">
-              <section className="setClr" style={{ width: "90%" }}>
+              <section className="setClr" style={graphicProgress}>
                 {" "}
               </section>
             </div>
