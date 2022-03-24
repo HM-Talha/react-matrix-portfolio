@@ -21,7 +21,7 @@ function ProjectCounter() {
  
 
 
-  // console.log(OdometerValue);
+  console.log(OdometerValue);
   return (
     <>
       <div>
