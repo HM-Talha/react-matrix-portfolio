@@ -19,6 +19,7 @@ const HomePage = () =>{
         <ProjectCounter />
         <div className="AboutSection">
           <AboutSection />
+          
           <AboutSection2 />
           <Services />
         </div>

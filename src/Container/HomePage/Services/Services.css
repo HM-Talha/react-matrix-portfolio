@@ -30,7 +30,7 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  height: 450px;
+  /* height: 500px; */
 }
 .servicesBox h3 {
   font-weight: bolder;
@@ -78,6 +78,8 @@
     width: 90%;
     margin: 30px auto;
     position: relative;
+    /* height: 400px !important; */
+    
   }
   .servicesParent {
     flex-direction: column;

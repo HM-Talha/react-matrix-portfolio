@@ -3,61 +3,22 @@ import Logo from "../../../assets/DFgnWp.png";
 import "./AboutSection2.css";
 
 function AboutSection2() {
-  const [webDevelopmentProgress, setWebDevelopmentProgress] = useState({
-    width: "0%",
-    transition: "0.5s",
-  });
-  const [mobileDevelopmentProgress, setMobileDevelopmentProgress] = useState({
-    width: "0%",
-    transition: "0.5s",
-  });
-  const [graphicProgress, setGraphicProgress] = useState({
-    width: "0%",
-    transition: "0.5s",
-  });
 
-  // console.log(document.documentElement.scrollTop);
-  // const changeProgressBarWidth = () => {
-  //   const scrollValue = document.documentElement.scrollTop;
-  //   if (scrollValue !== 2447.77783203125) {
-  //     setWebDevelopmentProgress({
-  //       transition: "1s",
-  //       width: "95%",
-  //     });
-  //     setMobileDevelopmentProgress({
-  //       transition: "1s",
-  //       width: "90%",
-  //     });
-  //     setGraphicProgress({
-  //       transition: "1s",
-  //       width: "80%",
-  //     });
-  //   }else{
-  //     // console.log("aaaaaaaa");
-  //   }
-  // };
-  // window.addEventListener("scroll", changeProgressBarWidth);
 
-  // console.log("hello");
+  const [scroll , setScroll] = useState(false)
+ 
+
   // console.log(window.scrollY);
+  const setWidth = () => {
+    if(window.scrollY >= 2200.77783203125){
+      setScroll(true)
+    }else{
+      setScroll(false)
+    }
+  }
+  window.addEventListener("scroll" , setWidth)
 
-  //   useEffect(() => {
-  //     setTimeout(() => {
-  //       setWebDevelopmentProgress({
-  //         transition: "1s",
-  //         width: "95%",
-  //       })
-  //       setMobileDevelopmentProgress({
-  //         transition: "1s",
-  //         width: "90%",
-  //       })
-  //       setGraphicProgress({
-  //         transition: "1s",
-  //         width: "80%",
-  //       })
-  // ;
-  //     }, 5000);
-  //   }, []);
+
   return (
     <section className="aboutMainParent mb-5 mt-5">
       <div className="abtParent p-3">
@@ -73,31 +34,31 @@ function AboutSection2() {
         </div>
         <div className="aboutCont2 container mt-4 ">
           <div className="mx-auto  ">
-            <p className="mx-auto  percentText m-0 p-0 mt-3 mb-2">
+            <p className="  percentText m-0 p-0 mt-3 mb-2">
               Website design & Development <span>95%</span>
             </p>
-            <div className="mx-auto percContainer">
-              <section className="setClr" style={webDevelopmentProgress}>
+            <div className=" percContainer">
+              <section className={scroll ? "setWidth" : "setClr"} >
                 {" "}
               </section>
             </div>
           </div>
           <div>
-            <p className="mx-auto percentText m-0 p-0 mt-3 mb-2">
+            <p className=" percentText m-0 p-0 mt-3 mb-2">
               Mobile App Design & development <span>90%</span>
             </p>
-            <div className="mx-auto percContainer">
-              <section className="setClr" style={mobileDevelopmentProgress}>
+            <div className=" percContainer">
+              <section className={scroll ? "setGraphicAndWeb" : "setClr"}>
                 {" "}
               </section>
             </div>
           </div>
           <div>
-            <p className="mx-auto percentText m-0 p-0 mt-3 mb-2">
+            <p className=" percentText m-0 p-0 mt-3 mb-2">
               Graphic Designing <span>90%</span>
             </p>
-            <div className="mx-auto percContainer">
-              <section className="setClr" style={graphicProgress}>
+            <div className=" percContainer">
+              <section className={scroll ? "setGraphicAndWeb" : "setClr"}>
                 {" "}
               </section>
             </div>
@@ -106,6 +67,6 @@ function AboutSection2() {
       </div>
     </section>
   );
-}
+} 
 
 export default AboutSection2;
