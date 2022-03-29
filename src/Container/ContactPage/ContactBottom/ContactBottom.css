@@ -13,9 +13,8 @@
   padding-left: 15px;
   padding-right: 15px;
 }
-.odometerCounter{
+.odometerCounter {
   text-align: center;
-
 }
 .container {
   width: 100%;
@@ -167,7 +166,6 @@ img {
 }
 
 .imgSection {
-  /* border: 1px solid red; */
   width: 45%;
 }
 .contactWithUsSection {
@@ -216,15 +214,15 @@ img {
   right: 25%;
   cursor: pointer;
 }
-@media only screen and (max-width : 992px){
-    .contactMiddleParent{
-        flex-direction: column;
-        justify-content: center;
-    }
-    .contactWithUsSection{
-        width: 90%;
-    }
-    .imgSection{
-        width: 90%;
-    }
+@media only screen and (max-width: 992px) {
+  .contactMiddleParent {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contactWithUsSection {
+    width: 90%;
+  }
+  .imgSection {
+    width: 90%;
+  }
 }

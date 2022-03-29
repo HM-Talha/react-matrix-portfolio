@@ -8,13 +8,11 @@
 }
 .abtParent {
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: center;
 }
 .aboutCont1 {
   /* width: 30%; */
   padding: 10px;
-  /* border: 1px solid red; */
 }
 .paraTextAbout2 {
   color: whitesmoke;
@@ -32,10 +30,6 @@
   font-style: oblique;
   text-decoration: underline;
 }
-.aboutCont2 {
-  /* width: 15%; */
-  /* border: 1px solid red; */
-}
 
 .percentText {
   margin: 15px 0;
@@ -44,7 +38,6 @@
   font-weight: bolder;
   font-size: 0.7rem;
   width: 100%;
-  /* border: 1px solid orange; */
 }
 .percentText span {
   position: absolute;
@@ -80,9 +73,8 @@
   border-radius: 30px;
   transition: 2s;
 }
-.scrollProges{
+.scrollProges {
   width: 50%;
-
 }
 @media only screen and (max-width: 670px) {
   .abtParent {

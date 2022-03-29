@@ -8,7 +8,10 @@ function AboutSection() {
     <div className="mainParent mb-5">
       <section className="aboutParent">
         <div className="cont1 p-4 mt-5">
-          <div className="accordion accordion-flush acordianBox" id="accordionFlushExample">
+          <div
+            className="accordion accordion-flush acordianBox"
+            id="accordionFlushExample"
+          >
             <div className="accordion-item acordianContent">
               <h2 className="accordion-header" id="flush-headingOne">
                 <button
@@ -19,7 +22,7 @@ function AboutSection() {
                   aria-expanded="false"
                   aria-controls="flush-collapseOne"
                 >
-                   What is our Vision? 
+                  What is our Vision?
                 </button>
               </h2>
               <div
@@ -29,8 +32,9 @@ function AboutSection() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
+                  Our Vision is to achieve 100% customer satisfaction by
+                  delivering quality products and services at an affordable
+                  cost.
                 </div>
               </div>
             </div>
@@ -54,8 +58,9 @@ function AboutSection() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
+                  Our Vision is to achieve 100% customer satisfaction by
+                  delivering quality products and services at an affordable
+                  cost.
                 </div>
               </div>
             </div>
@@ -79,39 +84,13 @@ function AboutSection() {
                 data-bs-parent="#accordionFlushExample"
               >
                 <div className="accordion-body">
-                Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
+                  Our Vision is to achieve 100% customer satisfaction by
+                  delivering quality products and services at an affordable
+                  cost.
                 </div>
               </div>
             </div>
           </div>
-          {/* <section className="QuesionParent my-3">
-            <p className="p-3 m-0 faqQuestion">
-              What is our Vision? <i className="fa-solid fa-angle-down" />
-            </p>
-            <p className="faqAns m-0 p-3">
-              Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
-            </p>
-          </section>
-          <section className="QuesionParent my-3">
-            <p className="p-3 m-0 faqQuestion">
-              What is our Vision? <i className="fa-solid fa-angle-down" />
-            </p>
-            <p className="faqAns m-0 p-3">
-              Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
-            </p>
-          </section>
-          <section className="QuesionParent my-3">
-            <p className="p-3 m-0 faqQuestion">
-              What is our Vision? <i className="fa-solid fa-angle-down" />
-            </p>
-            <p className="faqAns m-0 p-3">
-              Our Vision is to achieve 100% customer satisfaction by delivering
-              quality products and services at an affordable cost.
-            </p>
-          </section> */}
         </div>
         <div className="cont2">
           <section>

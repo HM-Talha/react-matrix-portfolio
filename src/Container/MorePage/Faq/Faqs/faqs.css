@@ -1,28 +1,20 @@
 .FaqsBox {
-  /* border: 1px solid; */
+  width: 50%;
   padding: 8px;
   border-radius: 10px;
-  background-color: #fff;
+  background-color: transparent;
+}
+
+.myAcordianContent {
+  margin: 10px 0;
+  width: 100% !important;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-.FaqsBox h5 {
-  /* border: 1px solid; */
-  margin: 0;
-  padding: 10px;
-  border-bottom: 1px solid lightgray;
-}
-.FaqsBox p {
-  /* border: 1px solid; */
-  margin: 0;
-  padding: 10px;
-  color: gray;
 }
 @media only screen and (max-width: 700px) {
   .faqsParent {
     flex-direction: column;
   }
-  .faqsParent section{
-    /* border: 1px solid red; */
-    margin: 10px 0 !important;
+  .FaqsBox {
+    width: 100%;
   }
 }

@@ -1,5 +1,5 @@
-.App{
-  font-family: var(--moniz-font, 'Kumbh Sans', sans-serif);
+.App {
+  font-family: var(--moniz-font, "Kumbh Sans", sans-serif);
   color: var(--moniz-gray, #717178);
   font-size: 18px;
   line-height: 36px;
@@ -10,18 +10,14 @@
   max-width: 700px;
   margin: 10px auto;
   padding-top: 0%;
-
 }
 .contact-page .section-title {
   margin-bottom: 42px;
   margin-top: auto;
   padding: 0;
 }
-/* .contact-page .container{
-  max-width: 768px;
-    width: 100%;
-} */
-.contact-page .form{
+
+.contact-page .form {
   width: 100%;
 }
 
@@ -34,7 +30,7 @@
   margin-bottom: 6px;
   font-weight: 700;
 }
-.section-title .section_tagline{
+.section-title .section_tagline {
   display: inline-flex;
   color: var(--moniz-gray, #717178);
   font-size: 16px;
@@ -51,10 +47,10 @@
   line-height: 60px;
   background-color: #09090a;
 }
-.section-title .section-title__title{
+.section-title .section-title__title {
   margin: 0;
   font-weight: 700;
-  color: var(--moniz-black, #1A1F33);
+  color: var(--moniz-black, #1a1f33);
   font-size: 50px;
   line-height: 60px;
 }
@@ -84,11 +80,11 @@ p {
 .btn1 {
   background-color: #1166d4;
   color: white;
-  /* padding-right: 20px !important; */
   width: 150px;
 }
-@media only screen and (max-width: 767px){ */
-.contact-page .section-title__title {
+@media only screen and (max-width: 767px) {
+  */ .contact-page .section-title__title {
     font-size: 30px;
     line-height: 40px;
- }}
+  }
+}
