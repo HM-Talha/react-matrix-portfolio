@@ -25,17 +25,17 @@ return (
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ">
               <li className="nav-item active mx-auto">
-                <a className="nav-link">
+                <a href="https://github.com/matrix-tech01" target="_blank" className="nav-link">
                   <i className="fa-brands fa-github nav-logos" />
                 </a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link">
+                <a href="https://www.facebook.com/Matrix-Tech-114696287795036" target="_blank" className="nav-link">
                   <i className="fa-brands fa-facebook nav-logos" />
                 </a>
               </li>
               <li className="nav-item mx-auto">
-                <a className="nav-link">
+                <a href="https://www.linkedin.com/company/matrix-tech1/?viewAsMember=true" target="_blank" className="nav-link">
                   <i className="fa-brands fa-linkedin nav-logos"></i>
                 </a>
               </li>
@@ -109,7 +109,7 @@ return (
               <li className="nav-item  mx-auto">
                 <a  className="nav-link navNum">
                   <i className="fa-solid fa-phone mx-2" />
-                  <span className=""> 0304-5801623</span>
+                  <span className=""> +92344-1891650</span>
                 </a>
               </li>
             </ul>
