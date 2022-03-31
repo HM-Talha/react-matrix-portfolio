@@ -10,13 +10,13 @@ const Middle = () => {
         <section
           className="imgContainer p-3"
           data-aos="zoom-in"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <img src={Welcome} width="100%" />
         </section>
       </div>
       <div className="secParent">
-        <section data-aos="zoom-in" data-aos-duration="2000">
+        <section data-aos="zoom-in" data-aos-duration="1000">
           <p className="aboutPara m-0 p3">About company</p>
           <h1 className="aboutText">
             Our Vision is to achieve 100% customer satisfaction by delivering
@@ -26,7 +26,7 @@ const Middle = () => {
         <section
           className="mt-5 myText d-flex"
           data-aos="zoom-in"
-          data-aos-duration="2000"
+          data-aos-duration="1000"
         >
           <p className="solutionText">
             <i className="fa-solid fa-check mr-3" />

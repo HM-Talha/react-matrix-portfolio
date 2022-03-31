@@ -43,7 +43,7 @@ return (
 
             <ul className="navbar-nav mx-auto">
               <li className="nav-item active mx-auto">
-                <a className="nav-link navLinks text-hite" href="#">
+                <a className="nav-link navLinks" href="#">
                   <Link to={"/"}>Home</Link>
                 </a>
               </li>

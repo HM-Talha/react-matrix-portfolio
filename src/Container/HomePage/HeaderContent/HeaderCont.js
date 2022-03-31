@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "../../../components/Navbar/Navbar";
-import './header.css'
+import "./header.css";
 
 const HeaderCont = () => {
   return (
@@ -13,11 +14,13 @@ const HeaderCont = () => {
           There’s A Fine Line Between Perfectionism And Obsession. We Don’t See
           It
         </p>
-        <button className="mt-3 btn btn-outline-primary btn animate__animated animate__zoomIn">
-          Contact Us
+        <button className="mt-3 btn btn-primary btn animate__animated animate__zoomIn">
+          <Link to={"/contact"}><span className="emailText">Contact Us</span></Link>
         </button>{" "}
         <button className="mt-3 btn mx-2 btn-primary btn animate__animated animate__zoomIn">
-          Email
+          <a href="mailto:matrix.tech78@gmail.com">
+            <span className="emailText">Email </span>
+          </a>
         </button>
       </div>
     </section>

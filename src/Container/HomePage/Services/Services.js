@@ -68,7 +68,7 @@ const Services = () => {
 
           <div className="topLogo2">
             <i
-              className="fa-solid fa-delete-left"
+              className="fa-brands fa-apple"
               data-aos="zoom-in"
               data-aos-duration="1000"
             />

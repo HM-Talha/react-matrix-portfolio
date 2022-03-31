@@ -6,11 +6,10 @@ import "./ContactBottom.css";
 
 const Bottom = () => {
   const [OdometerValue, SetOdometerValue] = useState(0);
-  useEffect(() => {
-    setTimeout(() => {
-      SetOdometerValue(100);
-    }, 2000);
-  }, []);
+
+  setTimeout(() => {
+    SetOdometerValue(100);
+  }, 2000);
 
   return (
     <section className="get-in-touch">

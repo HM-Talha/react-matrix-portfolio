@@ -72,6 +72,8 @@
   position: absolute;
   top: -50px;
   right: 33%;
+  padding: 20px 40px;
+  
 }
 @media only screen and (max-width: 990px) {
   .serviceBoxes {

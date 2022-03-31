@@ -9,15 +9,37 @@
 }
 .cont1 {
   width: 45%;
+padding: 5px 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  
+}
+.ourVisionBox{
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.cont1 h3{
+  /* border: 1px solid; */
+  margin-left: 10px;
+  color: gray;
+  border-bottom: 2px solid #1267D5;
+  width: 140px;
+  font-weight: bolder;
 
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+}
+.cont1 p{
+  /* border: 1px solid; */
+  margin: 20px 0 0 10px ;
+  width: 90%;
+  color: #AEAEAE;
+  
+  line-height: 30px;
+  word-spacing: 4px;
 }
 
-.acordianContent {
-  margin: 10px 0;
-}
 
 .cont2 {
   width: 55%;
@@ -40,17 +62,18 @@
   padding: 10px;
   border-radius: 0 0 0 8px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width :960px){
   .aboutParent {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+  }  
   .cont2,
   .cont1 {
     width: 90%;
   }
 }
+
 @media only screen and (max-width: 700px) {
   .cont2Child {
     width: 100%;
