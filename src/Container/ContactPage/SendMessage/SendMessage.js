@@ -33,5 +33,4 @@ const SendMessage = () => {
     </div>
   );
 };
-
 export default SendMessage;

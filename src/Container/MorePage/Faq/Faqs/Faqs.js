@@ -11,25 +11,25 @@ const Faqs = () => {
             data-aos="zoom-in"
             data-aos-duration="1500"
           >
-            <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion accordion-flush" id="chapters">
               <div class="accordion-item myAcordianContent">
-                <h2 class="accordion-header" id="flush-headingOne">
+                <h2 class="accordion-header" id="heading-1">
                   <button
                     class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseOne"
+                    data-bs-target="#chapter-1"
                     aria-expanded="false"
-                    aria-controls="flush-collapseOne"
+                    aria-controls="chapter-1"
                   >
                     What is our Vision?
                   </button>
                 </h2>
                 <div
-                  id="flush-collapseOne"
+                  id="chapter-1"
                   class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingOne"
-                  data-bs-parent="#accordionFlushExample"
+                  aria-labelledby="heading-1"
+                  data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
                     Our Vision is to achieve 100% customer satisfaction by
@@ -39,23 +39,23 @@ const Faqs = () => {
                 </div>
               </div>
               <div class="accordion-item myAcordianContent">
-                <h2 class="accordion-header" id="flush-headingTwo">
+                <h2 class="accordion-header" id="heading-2">
                   <button
                     class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseTwo"
+                    data-bs-target="#chapter-2"
                     aria-expanded="false"
-                    aria-controls="flush-collapseTwo"
+                    aria-controls="chapter-2"
                   >
                     What is our Vision?
                   </button>
                 </h2>
                 <div
-                  id="flush-collapseTwo"
+                  id="chapter-2"
                   class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingTwo"
-                  data-bs-parent="#accordionFlushExample"
+                  aria-labelledby="heading-2"
+                  data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
                     Our Vision is to achieve 100% customer satisfaction by
@@ -65,23 +65,23 @@ const Faqs = () => {
                 </div>
               </div>
               <div class="accordion-item myAcordianContent">
-                <h2 class="accordion-header" id="flush-headingThree">
+                <h2 class="accordion-header" id="heading-3">
                   <button
                     class="accordion-button collapsed"
                     type="button"
                     data-bs-toggle="collapse"
-                    data-bs-target="#flush-collapseThree"
+                    data-bs-target="#chapter-3"
                     aria-expanded="false"
-                    aria-controls="flush-collapseThree"
+                    aria-controls="chapter-3"
                   >
                     What is our Vision?
                   </button>
                 </h2>
                 <div
-                  id="flush-collapseThree"
+                  id="chapter-3"
                   class="accordion-collapse collapse"
-                  aria-labelledby="flush-headingThree"
-                  data-bs-parent="#accordionFlushExample"
+                  aria-labelledby="heading-3"
+                  data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
                     Our Vision is to achieve 100% customer satisfaction by

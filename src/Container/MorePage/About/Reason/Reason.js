@@ -6,10 +6,16 @@ const Reason = () => {
   return (
     <section className="container reasonParent">
       <div className="reasonChild1">
-        <img src={ReasonImg} alt="" width="100%" />
+        <img
+          src={ReasonImg}
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+          alt=""
+          width="100%"
+        />
       </div>
       <div className="reasonChild2">
-        <section className="subChildReason2">
+        <section className="subChildReason2" data-aos="fade-up">
           <p className="benefits">Our Benfits</p>
           <h5>Reasons why we are best</h5>
           <p>
@@ -20,8 +26,12 @@ const Reason = () => {
             sense and focus on idea generation. .
           </p>
         </section>
-        <section>
-          <div className="researchBox p-2">
+        <section data-aos-anchor-placement="top-bottom">
+          <div
+            className="researchBox p-2"
+            data-aos="fade-up"
+            data-aos-anchor-placement="top-bottom"
+          >
             <p>
               <i className="fa-solid fa-check checkLogo" /> Highly trained in
               administrative tasks

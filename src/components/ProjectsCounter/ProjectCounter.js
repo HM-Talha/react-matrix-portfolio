@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Odometer from "react-odometerjs";
-import "odometer/themes/odometer-theme-default.css";
+// import "odometer/themes/odometer-theme-default.css";
 import "./ProjectCounter.css";
 
 function ProjectCounter() {
@@ -14,14 +14,15 @@ function ProjectCounter() {
   const setWidth = () => {
     if (window.scrollY >= 1000.0) {
       setScroll(true);
+
       setTimeout(() => {
         SetOdometerValue(100);
         setProject(80);
         setActive(500);
         setHappy(200);
-      }, 2000);
-    } else {
-      setScroll(false);
+      }, 1100);
+    } else if(Window.scrollY>1220) {
+      setScroll();
     }
   };
   window.addEventListener("scroll", setWidth);

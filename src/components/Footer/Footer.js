@@ -12,10 +12,7 @@ const Footer = () => {
             </p>
             <ul>
               <li>
-                <a
-                  href="https://wa.me/+923363649948"
-                  target={"_blank"}
-                >
+                <a href="https://wa.me/+923363649948" target={"_blank"}>
                   <i className="fa-brands fa-whatsapp" />
                 </a>
               </li>
@@ -79,8 +76,10 @@ const Footer = () => {
             <p>What’s happening? Be the first to know.</p>
 
             <div className="inpBox">
-              <input type="text" name="" id="" placeholder="Email Address" />
-              <i className="fa-solid fa-paper-plane" />
+              <input type="email" name="" id="" placeholder="Email Address" />
+              <a href="mailto:matrix.tech78@gmail.com">
+                <i className="fa-solid fa-paper-plane" />
+              </a>
             </div>
             <p>I agree to all terms and policies</p>
           </div>

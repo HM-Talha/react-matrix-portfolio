@@ -6,13 +6,10 @@ const Header = () => {
   return (
     <section className="webDevParent mb-5">
       <div className="d-flex text-white justify-content-center servHeaderCont">
-        <p className="home">
-          <Link to="/">Home</Link>
-        </p>
-        <p className="mx-2">,</p>
-        <p>Services Details</p>
+        
+        <p className="animate__animated animate__zoomIn">Services Details</p>
       </div>
-      <div className="webDesign">
+      <div className="webDesign animate__animated animate__zoomIn">
         <h1>Website Development</h1>
       </div>
 

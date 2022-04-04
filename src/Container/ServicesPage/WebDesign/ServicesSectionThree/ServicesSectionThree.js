@@ -5,7 +5,11 @@ const ServicesSectionThree = () => {
   return (
     <div className="container sectionThreeParent">
       <section className="sercChildOne">
-        <div className="planningBox">
+        <div
+          className="planningBox"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           <h5 className="mb-3">Planning and work strategy</h5>
           <p>
             Quickly and cost-efficiently migrate your legacy applications’
@@ -18,7 +22,11 @@ const ServicesSectionThree = () => {
             applications and propose a detailed roadmap .
           </p>
         </div>
-        <div className="researchBox">
+        <div
+          className="researchBox"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <p>
             <i className="fa-solid fa-check checkLogo" /> Research beyond the
             business plan not work here
@@ -36,7 +44,7 @@ const ServicesSectionThree = () => {
             matters not at all
           </p>
         </div>
-        <div className="paraBox">
+        <div className="paraBox" data-aos="fade-up" data-aos-duration="1000">
           <p>
             By continually adapting to technological advances and modern trends,
             Asin Labs always remains at the forefront of application

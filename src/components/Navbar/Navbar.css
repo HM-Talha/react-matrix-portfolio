@@ -99,3 +99,9 @@ a:hover {
   transition: all 0.5s ease;
   transform: scale(1.1);
 }
+.clickTop{
+  position: fixed;
+  bottom: 10%;
+  right: 10%;
+  z-index: 9;
+}

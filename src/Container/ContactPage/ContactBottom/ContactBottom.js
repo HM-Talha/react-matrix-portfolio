@@ -9,7 +9,7 @@ const Bottom = () => {
 
   setTimeout(() => {
     SetOdometerValue(100);
-  }, 2000);
+  }, 1000)
 
   return (
     <section className="get-in-touch">
@@ -77,7 +77,7 @@ const Bottom = () => {
               <span className="email">Matrix.tech78@gmail.com</span>
             </a>
             <a href="" className="nav-link navNum">
-              <i className="text-dark fa-solid  fa-phone mx-2"> 0900-78601</i>
+              <i className="text-dark fa-solid  fa-phone mx-2"> +92344-1891650</i>
             </a>
           </div>
         </div>

@@ -7,12 +7,12 @@ const ServiceSection2 = () => {
     <div className="container servSecTwoParent">
       <div className="servChild1">
         <section className="servTopImg">
-          <img src={Services} width="100%" alt="" />
+          <img src={Services} data-aos="fade-up" width="100%" alt="" />
         </section>
         <section className="webDesignContent">
-          <img src={ServIcon} alt="" />
+          <img src={ServIcon} data-aos="fade-up" alt="" />
           <h5>Website design</h5>
-          <p>
+          <p data-aos="fade-up-right">
             Local and international clients across all major industries have
             digitized and enhanced their internal and customer-facing operations
             using web applications created by Asin Labs. We use a wide range of
@@ -26,7 +26,7 @@ const ServiceSection2 = () => {
         </section>
       </div>
       <div className="servChild2">
-        <section>
+        <section data-aos="fade-up-left" data-aos-duration="1500">
           <h4>
             Catories <i className="fa-solid fa-angle-right" />
           </h4>
