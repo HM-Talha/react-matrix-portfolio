@@ -30,7 +30,7 @@
   background-color: #fff;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-  /* height: 500px; */
+  height: 450px;
 }
 .servicesBox h3 {
   font-weight: bolder;
@@ -73,7 +73,6 @@
   top: -50px;
   right: 33%;
   padding: 20px 40px;
-  
 }
 @media only screen and (max-width: 990px) {
   .serviceBoxes {
@@ -101,6 +100,15 @@
   .topLogo1,
   .topLogo2 {
     right: 34%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .topLogo {
+    left: 35%;
+  }
+  .topLogo1,
+  .topLogo2 {
+    right: 36%;
   }
 }
 @media only screen and (max-width: 490px) {

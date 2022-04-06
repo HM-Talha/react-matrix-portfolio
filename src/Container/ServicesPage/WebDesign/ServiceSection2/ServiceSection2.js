@@ -39,18 +39,6 @@ const ServiceSection2 = () => {
           <p>
             Graphic Designing <i className="fa-solid fa-angle-right" />
           </p>
-          <p>
-            Mobile Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            IOS App <i className="fa-solid fa-angle-right" />s
-          </p>
-          <p>
-            Android Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Software <i className="fa-solid fa-angle-right" />
-          </p>
         </section>
       </div>
     </div>

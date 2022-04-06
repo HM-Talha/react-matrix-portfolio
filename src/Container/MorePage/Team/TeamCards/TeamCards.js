@@ -11,9 +11,9 @@ const TeamCards = () => {
   return (
     <section className="my-5">
       <div className="container">
-        <div className="row">
+        <section className="teamParent">
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -37,7 +37,7 @@ const TeamCards = () => {
             </section>
           </div>
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -54,14 +54,16 @@ const TeamCards = () => {
             </section>
             <section className="nameBox">
               <h5>
-              Robert Petricia
+                Robert Petricia
                 <br />
                 <span>Web Designer</span>
               </h5>
             </section>
           </div>
+        </section>
+        <section className="teamParent">
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -85,7 +87,7 @@ const TeamCards = () => {
             </section>
           </div>
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -108,8 +110,10 @@ const TeamCards = () => {
               </h5>
             </section>
           </div>
+        </section>
+        <section className="teamParent">
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -133,7 +137,7 @@ const TeamCards = () => {
             </section>
           </div>
           <div
-            className="col-sm-12 col-lg-4 col-md-6"
+            className="mx-3 my-2"
             data-aos="zoom-in"
             data-aos-duration="1000"
           >
@@ -156,7 +160,7 @@ const TeamCards = () => {
               </h5>
             </section>
           </div>
-        </div>
+        </section>
       </div>
     </section>
   );

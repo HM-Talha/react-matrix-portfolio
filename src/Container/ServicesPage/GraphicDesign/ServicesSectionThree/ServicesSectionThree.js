@@ -5,8 +5,11 @@ const ServicesSectionThree = () => {
   return (
     <div className="container sectionThreeParent">
       <section className="sercChildOne">
-        <div className="planningBox" data-aos="zoom-in-right"
-          data-aos-duration="1500">
+        <div
+          className="planningBox"
+          data-aos="zoom-in-right"
+          data-aos-duration="1500"
+        >
           <h5 className="mb-3">Planning and work strategy</h5>
           <p>
             Quickly and cost-efficiently migrate your legacy applications’
@@ -19,23 +22,26 @@ const ServicesSectionThree = () => {
             applications and propose a detailed roadmap .
           </p>
         </div>
-        <div className="researchBox" data-aos="fade-up"
-          data-aos-duration="1000">
+        <div
+          className="researchBox"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
           <p>
-            <i className="fa-solid fa-check checkLogo" /> Research beyond the business
-            plan not work here
+            <i className="fa-solid fa-check checkLogo" /> Research beyond the
+            business plan not work here
           </p>
           <p>
-            <i className="fa-solid fa-check checkLogo" /> Marketing options and rates
-            lipsum simply
+            <i className="fa-solid fa-check checkLogo" /> Marketing options and
+            rates lipsum simply
           </p>
           <p>
-            <i className="fa-solid fa-check checkLogo" /> The ability to turnaround
-            consulting work on it
+            <i className="fa-solid fa-check checkLogo" /> The ability to
+            turnaround consulting work on it
           </p>
           <p>
-            <i className="fa-solid fa-check checkLogo" /> Customer engagement matters not
-            at all
+            <i className="fa-solid fa-check checkLogo" /> Customer engagement
+            matters not at all
           </p>
         </div>
         <div className="paraBox" data-aos="fade-up" data-aos-duration="1000">
@@ -60,11 +66,17 @@ const ServicesSectionThree = () => {
           </section>
           <section data-aos="zoom-in-left" data-aos-duration="1500">
             <h5>Skilled Personnel</h5>
-           
+            <p>
+              Matrix Tech and business professionals provide innovative ideas,
+              deep expertise, and the will to succeed. .
+            </p>
           </section>
           <section data-aos="zoom-in-left" data-aos-duration="1500">
             <h5>Proven Track Record</h5>
-          
+            <p>
+              Our team goes above and beyond to provide total satisfaction. Your
+              happiness is always our foremost priority. ..
+            </p>
           </section>
         </div>
       </section>

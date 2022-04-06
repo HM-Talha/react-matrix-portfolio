@@ -90,11 +90,9 @@ const Navbar = () => {
 
             <ul className="navbar-nav mx-auto">
               <li className="nav-item active mx-auto">
-                <a className="nav-link navLinks">
-                  <Link to={"/"} onClick={goTop}>
-                    Home
-                  </Link>
-                </a>
+                <Link to={"/"} onClick={goTop}>
+                  <a className="nav-link navLinks">Home</a>
+                </Link>
               </li>
               <li className="nav-item dropdown mx-auto">
                 <a
@@ -111,34 +109,34 @@ const Navbar = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a href="#" className="dropdown-item dropDownLinks">
-                    <Link
-                      to={"/webdesign"}
-                      onClick={goTopdDesign}
-                      className=" Links"
-                    >
+                  <Link
+                    to={"/webdesign"}
+                    onClick={goTopdDesign}
+                    className=" Links"
+                  >
+                    <a href="#" className="dropdown-item dropDownLinks">
                       {" "}
                       Web designing
-                    </Link>
-                  </a>
-                  <a href="#" className="dropdown-item dropDownLinks">
-                    <Link to={"/webdeveloper"} onClick={goTopDesign}>
+                    </a>
+                  </Link>
+                  <Link to={"/webdeveloper"} onClick={goTopDesign}>
+                    <a href="#" className="dropdown-item dropDownLinks">
                       Web Development
-                    </Link>
-                  </a>
-                  <a href="#" className="dropdown-item dropDownLinks">
-                    <Link to={"/graphicdesign"} onClick={goTopGraphic}>
+                    </a>
+                  </Link>
+                  <Link to={"/graphicdesign"} onClick={goTopGraphic}>
+                    <a href="#" className="dropdown-item dropDownLinks">
                       Graphic Designing
-                    </Link>
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </li>
               <li className="nav-item mx-auto">
-                <a href="#" className="nav-link navLinks">
-                  <Link to={"/contact"} onClick={gotTopContact}>
+                <Link to={"/contact"} onClick={gotTopContact}>
+                  <a href="#" className="nav-link navLinks">
                     Contact
-                  </Link>
-                </a>
+                  </a>
+                </Link>
               </li>
               <li className="nav-item dropdown mx-auto">
                 <a
@@ -155,29 +153,29 @@ const Navbar = () => {
                   className="dropdown-menu"
                   aria-labelledby="navbarDropdownMenuLink"
                 >
-                  <a href="#" className="dropdown-item dropDownLinks">
-                    <Link to={"/about"} onClick={goTopAbout}>
+                  <Link to={"/about"} onClick={goTopAbout}>
+                    <a href="#" className="dropdown-item dropDownLinks">
                       About
-                    </Link>
-                  </a>
-                  <a className="dropdown-item dropDownLinks" href="#">
-                    <Link to={"/team"} onClick={goTopTeam}>
+                    </a>
+                  </Link>
+                  <Link to={"/team"} onClick={goTopTeam}>
+                    <a className="dropdown-item dropDownLinks" href="#">
                       Team
-                    </Link>
-                  </a>
-                  <a className="dropdown-item dropDownLinks" href="#">
-                    <Link to={"/faq"} onClick={goTopFaq}>
+                    </a>
+                  </Link>
+                  <Link to={"/faq"} onClick={goTopFaq}>
+                    <a className="dropdown-item dropDownLinks" href="#">
                       FAQ
-                    </Link>
-                  </a>
+                    </a>
+                  </Link>
                 </div>
               </li>
             </ul>
             <ul className="navbar-nav ml-auto mr-3">
               <li className="nav-item  mx-auto">
-                <a className="nav-link navNum">
+                <a className="nav-link navNum" href="tel:+923341891650">
                   <i className="fa-solid fa-phone mx-2" />
-                  <span className=""> +92344-1891650</span>
+                  <span className=""> +92334-1891650</span>
                 </a>
               </li>
             </ul>

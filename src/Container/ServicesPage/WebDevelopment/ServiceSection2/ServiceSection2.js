@@ -25,31 +25,23 @@ const ServiceSection2 = () => {
           </p>
         </section>
       </div>
-      <div className="servChild2" data-aos="fade-up-left" data-aos-duration="1500">
+      <div
+        className="servChild2"
+        data-aos="fade-up-left"
+        data-aos-duration="1500"
+      >
         <section>
           <h4>
             Catories <i className="fa-solid fa-angle-right" />
           </h4>
-          <p className="firstPara">
+          <p>
             Web Design <i className="fa-solid fa-angle-right" />
           </p>
-          <p>
+          <p className="firstPara">
             Web Development <i className="fa-solid fa-angle-right" />
           </p>
           <p>
             Graphic Designing <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Mobile Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            IOS App <i className="fa-solid fa-angle-right" />s
-          </p>
-          <p>
-            Android Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Software <i className="fa-solid fa-angle-right" />
           </p>
         </section>
       </div>

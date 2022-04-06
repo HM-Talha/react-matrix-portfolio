@@ -30,26 +30,14 @@ const ServiceSection2 = () => {
           <h4>
             Catories <i className="fa-solid fa-angle-right" />
           </h4>
-          <p className="firstPara">
+          <p>
             Web Design <i className="fa-solid fa-angle-right" />
           </p>
           <p>
             Web Development <i className="fa-solid fa-angle-right" />
           </p>
-          <p>
+          <p className="firstPara">
             Graphic Designing <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Mobile Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            IOS App <i className="fa-solid fa-angle-right" />s
-          </p>
-          <p>
-            Android Apps <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Software <i className="fa-solid fa-angle-right" />
           </p>
         </section>
       </div>

@@ -66,9 +66,17 @@ const ServicesSectionThree = () => {
           </section>
           <section data-aos="zoom-in-left" data-aos-duration="1500">
             <h5>Skilled Personnel</h5>
+            <p>
+              Matrix Tech and business professionals provide innovative ideas,
+              deep expertise, and the will to succeed. .
+            </p>
           </section>
           <section data-aos="zoom-in-left" data-aos-duration="1500">
             <h5>Proven Track Record</h5>
+            <p>
+              Our team goes above and beyond to provide total satisfaction. Your
+              happiness is always our foremost priority. ..
+            </p>
           </section>
         </div>
       </section>

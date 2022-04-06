@@ -48,7 +48,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="chapter-2"
                   >
-                    What is our Vision?
+                    What is our mission?
                   </button>
                 </h2>
                 <div
@@ -58,9 +58,9 @@ const Faqs = () => {
                   data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
-                    Our Vision is to achieve 100% customer satisfaction by
-                    delivering quality products and services at an affordable
-                    cost.
+                    We curate purpose-driven digital solutions that solve
+                    business problems. We strengthen organizations by guiding
+                    them through important technology decisions. cost.
                   </div>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="chapter-3"
                   >
-                    What is our Vision?
+                    WHY TERROSTAR?
                   </button>
                 </h2>
                 <div
@@ -84,9 +84,10 @@ const Faqs = () => {
                   data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
-                    Our Vision is to achieve 100% customer satisfaction by
-                    delivering quality products and services at an affordable
-                    cost.
+                    that look great, work flawlessly and help to grow your
+                    business. Working with us means you get a team large enough
+                    to execute your project on time, but small enough for daily
+                    interaction.
                   </div>
                 </div>
               </div>
@@ -108,7 +109,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseOne"
                   >
-                    What is our Vision?
+                    Our Services
                   </button>
                 </h2>
                 <div
@@ -118,9 +119,12 @@ const Faqs = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Our Vision is to achieve 100% customer satisfaction by
-                    delivering quality products and services at an affordable
-                    cost..
+                    Our DG Web line of services offers everything you need for
+                    your website! It all begins with a Website Strategy,
+                    Information Architecture, and User Experience/User Interface
+                    Design. We then transition over to Front-End & Back-End Web
+                    Development, Custom Plugin Creation, Security & Quality
+                    Assurance, and Website Launch Services & Training. cost..
                   </div>
                 </div>
               </div>
@@ -134,7 +138,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseTwo"
                   >
-                    What is our Vision?
+                    How We Plan..
                   </button>
                 </h2>
                 <div
@@ -144,9 +148,12 @@ const Faqs = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Our Vision is to achieve 100% customer satisfaction by
-                    delivering quality products and services at an affordable
-                    cost.
+                    During the planning phase of building a website, we gather
+                    the necessary information that aims to ensure that
+                    everything is aligned to work towards your company goals.
+                    Then, we plan out the overall structure of the site. Similar
+                    to a blueprint of a house, we organize your content and site
+                    features to plan out your audience’s online experience.
                   </div>
                 </div>
               </div>
@@ -160,7 +167,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="flush-collapseThree"
                   >
-                    What is our Vision?
+                    ENVISION YOUR DREAM WEBSITE
                   </button>
                 </h2>
                 <div
@@ -170,9 +177,9 @@ const Faqs = () => {
                   data-bs-parent="#accordionFlushExample"
                 >
                   <div class="accordion-body">
-                    Our Vision is to achieve 100% customer satisfaction by
-                    delivering quality products and services at an affordable
-                    cost.
+                    Our team of designers specializes in developing rich
+                    front-end designs that attract attention and help users find
+                    what they are looking for quickly.
                   </div>
                 </div>
               </div>
