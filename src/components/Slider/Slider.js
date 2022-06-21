@@ -1,107 +1,110 @@
 import React from "react";
-
-import Img6 from "../../assets/06.jpeg";
-import Img7 from "../../assets/07.jpeg";
-import Img8 from "../../assets/08.jpeg";
-import Img9 from "../../assets/09.jpeg";
-import Img10 from "../../assets/10.jpeg";
-import Img11 from "../../assets/11.jpeg";
 import "./Slider.css";
 
-const Slider = () => {
+const Slider = ({ title, id, AppPic1, AppPic2, AppPic3, link }) => {
+  console.log(link);
   return (
     <>
-      <div className="my-5 sliderBox">
-        <div
-          id="carouselExampleIndicators"
-          className="carousel slide"
-          data-ride="carousel"
-        >
-          <ol className="carousel-indicators">
-            <li
-              data-target="#carouselExampleIndicators"
-              data-slide-to={0}
-              className="active"
-            />
-            <li data-target="#carouselExampleIndicators" data-slide-to={1} />
-            <li data-target="#carouselExampleIndicators" data-slide-to={2} />
-          </ol>
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <section className="d-flex justify-content-around imgBox">
-                <img
-                  src={Img6}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-                <img
-                  src={Img7}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-                <img
-                  src={Img8}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-              </section>
+      <div className="pb-5">
+        <div className="my-5 sliderBox">
+          <h1 className="text-center my-3 textheading">{title}</h1>
+
+          <div id={id} className="carousel slide" data-ride="carousel">
+            <ol className="carousel-indicators">
+              <li data-target={`#${id}`} data-slide-to={0} className="active" />
+              <li data-target={`#${id}`} data-slide-to={1} />
+              <li data-target={`#${id}`} data-slide-to={2} />
+            </ol>
+            <div className="carousel-inner">
+              <div className="carousel-item active">
+                <section className="d-flex justify-content-around imgBox">
+                  <a target="_blank" href={link[0]}>
+                    <img
+                      src={AppPic1}
+                      alt=""
+                      height="250px"
+                      className="imgSlider"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                    />
+                  </a>
+                  <a target="_blank" href={link[1]}>
+                    <img
+                      src={AppPic2}
+                      alt=""
+                      height="250px"
+                      className="imgSlider"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                    />
+                  </a>
+                  <a target="_blank" href={link[2]}>
+                    <img
+                      src={AppPic3}
+                      alt=""
+                      height="250px"
+                      className="imgSlider"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                    />
+                  </a>
+                </section>
+              </div>
+              <div className="carousel-item">
+                <section className="d-flex justify-content-around imgBox">
+                  <a target="_blank" href={link[0]}>
+                    <img
+                      src={AppPic1}
+                      alt=""
+                      height="250px"
+                      // width="50%"
+                      className="imgSlider"
+                      data-aos="zoom-in"
+                      data-aos-duration="1500"
+                    />
+                  </a>
+                  <a target="_blank" href={link[1]}>
+                  <img
+                    src={AppPic2}
+                    alt=""
+                    height="250px"
+                    className="imgSlider"
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                  />
+                  </a>
+                  <a target="_blank" href={link[2]}>
+                  <img
+                    src={AppPic3}
+                    alt=""
+                    height="250px"
+                    className="imgSlider"
+                    data-aos="zoom-in"
+                    data-aos-duration="1500"
+                  />
+                  </a>
+                </section>
+              </div>
             </div>
-            <div className="carousel-item">
-              <section className="d-flex justify-content-around imgBox">
-                <img
-                  src={Img9}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-                <img
-                  src={Img10}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-                <img
-                  src={Img11}
-                  alt=""
-                  height="250px"
-                  className="imgSlider"
-                  data-aos="zoom-in"
-                  data-aos-duration="1500"
-                />
-              </section>
-            </div>
+            <button
+              className="carousel-control-prev"
+              type="button"
+              data-target={`#${id}`}
+              data-slide="prev"
+            >
+              <span className="carousel-control-prev-icon" aria-hidden="true" />
+              <span className="sr-only">Previous</span>
+            </button>
+            <button
+              className="carousel-control-next"
+              type="button"
+              data-target={`#${id}`}
+              data-slide="next"
+            >
+              <span className="carousel-control-next-icon" aria-hidden="true" />
+              <span className="sr-only">Next</span>
+            </button>
           </div>
-          <button
-            className="carousel-control-prev"
-            type="button"
-            data-target="#carouselExampleIndicators"
-            data-slide="prev"
-          >
-            <span className="carousel-control-prev-icon" aria-hidden="true" />
-            <span className="sr-only">Previous</span>
-          </button>
-          <button
-            className="carousel-control-next"
-            type="button"
-            data-target="#carouselExampleIndicators"
-            data-slide="next"
-          >
-            <span className="carousel-control-next-icon" aria-hidden="true" />
-            <span className="sr-only">Next</span>
-          </button>
         </div>
       </div>
     </>

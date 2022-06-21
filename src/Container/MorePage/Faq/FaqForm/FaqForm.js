@@ -44,7 +44,7 @@ const FaqForm = () => {
             id=""
             placeholder="Enter Your comment"
             cols="30"
-            rows="10"
+            rows="5"
             onChange={(e)=>{setComments(e.target.value)}}
           ></textarea>
         </div>

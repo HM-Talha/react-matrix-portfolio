@@ -39,6 +39,11 @@
 .avatarBox img {
   border-radius: 50%;
 }
+.clientName{
+ text-align: center; 
+ font-style: italic;
+ font-weight: bolder;
+}
 .feedback p {
   color: gray;
   padding: 5px;

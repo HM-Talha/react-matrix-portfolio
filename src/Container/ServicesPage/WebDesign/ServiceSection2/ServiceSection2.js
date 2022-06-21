@@ -1,8 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Services from "../../../../assets/services page.jpg";
 import ServIcon from "../../../../assets/ServIcon.png";
 import "./ServiceSection2.css";
 const ServiceSection2 = () => {
+  const goTop = () => {
+    document.body.scrollTop = document.documentElement.scrollTop = 0;
+  };
   return (
     <div className="container servSecTwoParent">
       <div className="servChild1">
@@ -30,15 +34,21 @@ const ServiceSection2 = () => {
           <h4>
             Catories <i className="fa-solid fa-angle-right" />
           </h4>
-          <p className="firstPara">
-            Web Design <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Web Development <i className="fa-solid fa-angle-right" />
-          </p>
-          <p>
-            Graphic Designing <i className="fa-solid fa-angle-right" />
-          </p>
+          <Link to={"/webdesign"} onClick={()=>goTop()}>
+            <p className="firstPara">
+              Web Design <i className="fa-solid fa-angle-right" />
+            </p>
+          </Link>
+          <Link to={"/webdeveloper"} onClick={()=>goTop()}>
+            <p>
+              Web Development <i className="fa-solid fa-angle-right" />
+            </p>
+          </Link>
+          <Link to={"/graphicdesign"} onClick={()=>goTop()}>
+            <p>
+              Graphic Designing <i className="fa-solid fa-angle-right" />
+            </p>
+          </Link>
         </section>
       </div>
     </div>

@@ -1,6 +1,9 @@
 body {
   background: #fefefe;
 }
+html {
+  scroll-behavior: smooth;
+}
 .AboutSection {
   background-color: #f1f1f5;
 }

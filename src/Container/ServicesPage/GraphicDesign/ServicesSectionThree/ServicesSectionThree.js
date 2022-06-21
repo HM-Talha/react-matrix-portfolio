@@ -87,7 +87,9 @@ const ServicesSectionThree = () => {
             Prefer speaking with a human to filling out a form? call corporate
             office and we will connect you with a team member who can help.
           </p>
-          <i className="fa-solid fa-phone " />
+          <a href="tel:+92334-1891650">
+            <i className="fa-solid fa-phone " />
+          </a>
         </div>
       </section>
     </div>

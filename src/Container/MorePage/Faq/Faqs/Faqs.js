@@ -58,7 +58,7 @@ const Faqs = () => {
                   data-bs-parent="#chapters"
                 >
                   <div class="accordion-body">
-                    We curate purpose-driven digital solutions that solve
+                    We create purpose-driven digital solutions that solve
                     business problems. We strengthen organizations by guiding
                     them through important technology decisions. cost.
                   </div>
@@ -74,7 +74,7 @@ const Faqs = () => {
                     aria-expanded="false"
                     aria-controls="chapter-3"
                   >
-                    WHY TERROSTAR?
+                    WHY Matrix Tech?
                   </button>
                 </h2>
                 <div

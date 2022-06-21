@@ -2,7 +2,7 @@ import React from "react";
 import "./Feedback.css";
 import Avatar1 from "../../assets/client1.jpg";
 import Avatar2 from "../../assets/client2.jpg";
-import Avatar3 from "../../assets/Avatar-03.jpg";
+import Avatar3 from "../../assets/client3.jpg";
 
 const Feedback = () => {
   return (
@@ -30,6 +30,7 @@ const Feedback = () => {
                     alt=""
                   />
                 </div>
+                <h3 className="clientName">John William</h3>
                 <div>
                   <p data-aos="zoom-in" data-aos-duration="1500">
                     Matrix Tech is the firm to work with if you want to keep up
@@ -53,6 +54,8 @@ const Feedback = () => {
                     alt=""
                   />
                 </div>
+                <h3 className="clientName">Oliver George</h3>
+
                 <div>
                   <p data-aos="zoom-in" data-aos-duration="1500">
                     They are very sharp and have a high-quality team. I expect
@@ -65,25 +68,25 @@ const Feedback = () => {
                   </p>
                 </div>
               </div>
-              {/* <div className="carousel-item">
+              <div className="carousel-item">
                 <div className="avatarBox mx-auto">
                   <img
                     src={Avatar3}
                     data-aos="flip-up"
                     data-aos-duration="1000"
                     width="100%"
+                    height="100px"
                     alt=""
                   />
                 </div>
+                <h3 className="clientName">Leo Oscar</h3>
+
                 <div>
                   <p data-aos="zoom-in" data-aos-duration="1500">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Fugiat laudantium ullam ad animi voluptatem quisquam! Veniam
-                    qui, repellendus voluptatibus, doloribus aspernatur facilis
-                    earum velit quibusdam, incidunt totam odit. In, illo?
+                  They know what they are doing, they do their best, and they are all super friendly, reliable, communicative people.Their flexibility makes it possible to increase and decrease their involvement based on our needs.The most impressive thing was the knowledge and quality of the developers and the second project manager.
                   </p>
                 </div>
-              </div> */}
+              </div>
             </div>
             <button
               className="carousel-control-prev"

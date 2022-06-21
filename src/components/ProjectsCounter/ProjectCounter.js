@@ -16,10 +16,10 @@ function ProjectCounter() {
       setScroll(true);
 
       setTimeout(() => {
-        SetOdometerValue(100);
-        setProject(80);
-        setActive(500);
-        setHappy(200);
+        SetOdometerValue(95);
+        setProject(78);
+        setActive(491);
+        setHappy(455);
       }, 1100);
     } else if(Window.scrollY>1220) {
       setScroll();
